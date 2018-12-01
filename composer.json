@@ -11,6 +11,13 @@
 	"type" : "phalcon-plugins",
 	"description" : "phalcon plugins for phalcon-framwork",
 	"license" : "Apache-2.0",
+	"authors": [
+	    {
+	      "name": "zhaoyang",
+	      "email": "1134856531@qq.com",
+	      "homepage": "https://github.com/zhaoyang1214"
+	    }
+	],
 	"require" : {
 		"php" : ">=7.0"
 	}
