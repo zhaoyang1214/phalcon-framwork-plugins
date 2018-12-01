@@ -1,0 +1,17 @@
+{
+	"keywords" : [
+		"phalcon-plugins"
+	],
+	"autoload" : {
+		"psr-4" : {
+			"PhalconPlugins\\" : "src"
+		}
+	},
+	"name" : "phalcon-framwork/plugins",
+	"type" : "phalcon-plugins",
+	"description" : "phalcon plugins for phalcon-framwork",
+	"license" : "Apache-2.0",
+	"require" : {
+		"php" : ">=7.0"
+	}
+}
