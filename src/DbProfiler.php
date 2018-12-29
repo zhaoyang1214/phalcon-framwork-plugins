@@ -39,6 +39,6 @@ class DbProfiler extends Plugin
         $params = json_encode($params, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
         $executeTime = $profile->getTotalElapsedSeconds();
         $profiler->reset();
-        $this->di->getLogger()->info("$sql $params $executeTime");
+        $this->di->getLogger()->info("[$sql] [$params] [$executeTime]");
     }
 }
