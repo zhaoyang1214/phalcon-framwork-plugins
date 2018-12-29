@@ -14,7 +14,7 @@ use Phalcon\Mvc\Dispatcher as MvcDispatcher;
 class Dispatcher extends Plugin
 {
 
-    private $servicesConfig = [];
+    protected $servicesConfig = [];
 
     public function __construct(array $servicesConfig)
     {
